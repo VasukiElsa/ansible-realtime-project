@@ -36,11 +36,9 @@ TASK 2
 Setup a passwordless authentication using ssh-copy-id
 
 $ssh-keygen (make sure to generate public-private secret key)
-
 #To see the ssh generated keys go ~/.ssh/ directory
 
-$ ssh-copy-id  -f "-o IdentityFile <Path to pem file>" <user-name>@<Instance-public-key>
-
+$ ssh-copy-id  -f "-o IdentityFile /path-to-pem-file" user-name@Instance-public-key
 (Here we are copying ssh public key to the remote server)
 
 ---
