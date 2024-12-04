@@ -17,7 +17,7 @@ IMPLEMENTING :
 ---
 TASK 1
 ---
-Our control node act as a localhost and python modules on installed on control nodes and we create ec2-instances on AWS by not using SSH protocol, because AWS is not understand those protocols. The only way to create resources is by talking to the aws - API(Application Programming Interface). Using Boto3 python module we talk to the aws-api. Using ansible-collection modules we implement this infrastructuring tasks on aws.
+Our control node acts as a localhost, and Python modules are installed on the control node. We create EC2 instances on AWS without using the SSH protocol because AWS does not support it for this purpose. The only way to create resources is by interacting with the AWS API (Application Programming Interface). Using the Boto3 Python module, we communicate with the AWS API. We implement these infrastructure tasks on AWS using Ansible collection modules.
 
 Dependencies:
 ---
