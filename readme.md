@@ -16,6 +16,7 @@ Automatically shutdown the ubuntu machines using ansible-condition(when)
 IMPLEMENTING :
 ---
 TASK 1
+---
 Our control node act as a localhost and python modules on installed on control nodes and we create ec2-instances on AWS by not using SSH protocol, because AWS is not understand those protocols. The only way to create resources is by talking to the aws - API(Application Programming Interface). Using Boto3 python module we talk to the aws-api. Using ansible-collection modules we implement this infrastructuring tasks on aws.
 
 Dependencies:
